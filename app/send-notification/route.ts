@@ -18,6 +18,7 @@ export async function POST(request: NextRequest) {
     notification: {
       title: title,
       body: message,
+    
     },
     webpush: link && {
       fcmOptions: {
